@@ -1,0 +1,150 @@
+{
+    "common": {
+      "welcome": "Bienvenido",
+      "loading": "Cargando...",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "submit": "Enviar",
+      "back": "Atrás",
+      "next": "Siguiente",
+      "confirm": "Confirmar",
+      "close": "Cerrar",
+      "search": "Buscar",
+      "filter": "Filtrar",
+      "actions": "Acciones"
+    },
+    "auth": {
+      "login": {
+        "title": "Bienvenido de nuevo",
+        "subtitle": "Inicia sesión en tu bóveda segura",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "signIn": "Iniciar sesión",
+        "signingIn": "Iniciando sesión...",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "noAccount": "¿No tienes una cuenta?",
+        "createAccount": "Crear nueva cuenta",
+        "twoFactorTitle": "Autenticación de dos factores",
+        "twoFactorSubtitle": "Ingresa el código de 6 dígitos de tu app autenticadora",
+        "twoFactorCode": "Código 2FA",
+        "verify2FA": "Verificar 2FA",
+        "verifying": "Verificando...",
+        "sendEmailCode": "Enviar código por correo"
+      },
+      "register": {
+        "title": "Crear cuenta",
+        "subtitle": "Regístrate para comenzar",
+        "username": "Nombre de usuario",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "masterPassword": "Contraseña maestra",
+        "confirmPassword": "Confirmar contraseña",
+        "signUp": "Registrarse",
+        "signingUp": "Registrando...",
+        "hasAccount": "¿Ya tienes una cuenta?",
+        "signIn": "Iniciar sesión"
+      },
+      "forgotPassword": {
+        "title": "Restablecer contraseña",
+        "step1Subtitle": "Ingresa tu correo para recibir un código de restablecimiento",
+        "step2Subtitle": "Ingresa el código de 6 dígitos enviado a tu correo",
+        "step3Subtitle": "Ingresa tu nueva contraseña",
+        "sendCode": "Enviar código de restablecimiento",
+        "sending": "Enviando...",
+        "verifyCode": "Verificar código",
+        "verifying": "Verificando...",
+        "resetPassword": "Restablecer contraseña",
+        "resetting": "Restableciendo...",
+        "resendCode": "Reenviar código",
+        "backToEmail": "Volver al correo",
+        "backToVerification": "Volver a verificación",
+        "codeSent": "Código enviado a",
+        "newPassword": "Nueva contraseña",
+        "confirmPassword": "Confirmar contraseña"
+      }
+    },
+    "dashboard": {
+      "title": "Tablero",
+      "welcome": "Bienvenido de nuevo",
+      "stats": {
+        "totalPasswords": "Contraseñas totales",
+        "categories": "Categorías",
+        "favorites": "Favoritos",
+        "recent": "Actividad reciente"
+      }
+    },
+    "settings": {
+      "title": "Configuración",
+      "subtitle": "Administra la seguridad de tu cuenta",
+      "personalDetails": {
+        "title": "Detalles personales",
+        "subtitle": "Gestiona la información de tu cuenta",
+        "username": "Nombre de usuario",
+        "email": "Correo electrónico",
+        "saveChanges": "Guardar cambios",
+        "saving": "Guardando..."
+      },
+      "twoFactor": {
+        "title": "Autenticación de dos factores",
+        "subtitle": "Agrega una capa extra de seguridad",
+        "enabled": "2FA habilitado",
+        "disabled": "2FA deshabilitado",
+        "backupCodesRemaining": "códigos de respaldo restantes",
+        "enabledOn": "Habilitado en",
+        "enable2FA": "Habilitar 2FA",
+        "disable2FA": "Deshabilitar 2FA",
+        "regenerateBackupCodes": "Regenerar códigos de respaldo",
+        "scanQR": "Escanea el código QR con tu app autenticadora",
+        "verificationCode": "Ingresa el código de la app",
+        "verifyEnable": "Verificar y habilitar",
+        "enterCode": "Ingresa el código de 6 dígitos",
+        "cantScan": "¿No puedes escanear? Ingresa este código manualmente:",
+        "backupCodes": "Códigos de respaldo",
+        "saveCodes": "Guarda estos códigos en un lugar seguro. Cada código solo puede usarse una vez.",
+        "savedCodes": "He guardado estos códigos",
+        "emailOTP": "OTP por correo electrónico",
+        "emailOTPDesc": "Si no puedes usar la app autenticadora, solicita un código único por correo.",
+        "requestEmailCode": "Solicitar código por correo",
+        "codeSent": "¡Código enviado!",
+        "checkEmail": "Revisa tu correo para el código de verificación. Puedes usarlo al iniciar sesión."
+      },
+      "theme": {
+        "title": "Apariencia",
+        "subtitle": "Personaliza la apariencia de la app",
+        "selectTheme": "Seleccionar tema",
+        "presets": {
+          "light": "Claro",
+          "dark": "Oscuro",
+          "blue": "Acento azul",
+          "cyberpunk": "Cyberpunk"
+        },
+        "customColor": "Color de acento personalizado",
+        "pickColor": "Elige un color de acento",
+        "preview": "Vista previa"
+      },
+      "language": {
+        "title": "Idioma",
+        "subtitle": "Elige tu idioma preferido",
+        "selectLanguage": "Seleccionar idioma",
+        "english": "Inglés",
+        "hindi": "Hindi"
+      }
+    },
+    "passwords": {
+      "title": "Contraseñas",
+      "addNew": "Agregar nueva contraseña",
+      "searchPlaceholder": "Buscar contraseñas...",
+      "noPasswords": "No se encontraron contraseñas",
+      "noPasswordsDesc": "Comienza agregando tu primera contraseña"
+    },
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Ingresa un correo electrónico válido",
+      "invalidPassword": "La contraseña debe tener al menos 6 caracteres",
+      "passwordsNotMatch": "Las contraseñas no coinciden",
+      "generic": "Ocurrió un error. Intenta de nuevo."
+    }
+  }
+  

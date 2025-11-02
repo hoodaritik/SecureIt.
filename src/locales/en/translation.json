@@ -1,0 +1,150 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "actions": "Actions"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your secure vault",
+      "email": "Email address",
+      "password": "Password",
+      "signIn": "Sign in",
+      "signingIn": "Signing in...",
+      "forgotPassword": "Forgot your password?",
+      "noAccount": "Don't have an account?",
+      "createAccount": "Create new account",
+      "twoFactorTitle": "Two-Factor Authentication",
+      "twoFactorSubtitle": "Please enter the 6-digit code from your authenticator app",
+      "twoFactorCode": "2FA Code",
+      "verify2FA": "Verify 2FA",
+      "verifying": "Verifying...",
+      "sendEmailCode": "Send code via email"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Sign up to get started",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "masterPassword": "Master Password",
+      "confirmPassword": "Confirm Password",
+      "signUp": "Sign up",
+      "signingUp": "Signing up...",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "step1Subtitle": "Enter your email to receive a reset code",
+      "step2Subtitle": "Enter the 6-digit code sent to your email",
+      "step3Subtitle": "Enter your new password",
+      "sendCode": "Send Reset Code",
+      "sending": "Sending...",
+      "verifyCode": "Verify Code",
+      "verifying": "Verifying...",
+      "resetPassword": "Reset Password",
+      "resetting": "Resetting...",
+      "resendCode": "Resend Code",
+      "backToEmail": "Back to Email",
+      "backToVerification": "Back to Verification",
+      "codeSent": "Code sent to",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "stats": {
+      "totalPasswords": "Total Passwords",
+      "categories": "Categories",
+      "favorites": "Favorites",
+      "recent": "Recent Activity"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account security settings",
+    "personalDetails": {
+      "title": "Personal Details",
+      "subtitle": "Manage your account information",
+      "username": "Username",
+      "email": "Email Address",
+      "saveChanges": "Save Changes",
+      "saving": "Saving..."
+    },
+    "twoFactor": {
+      "title": "Two-Factor Authentication",
+      "subtitle": "Add an extra layer of security to your account",
+      "enabled": "2FA is enabled",
+      "disabled": "2FA is disabled",
+      "backupCodesRemaining": "backup codes remaining",
+      "enabledOn": "Enabled on",
+      "enable2FA": "Enable 2FA",
+      "disable2FA": "Disable 2FA",
+      "regenerateBackupCodes": "Regenerate Backup Codes",
+      "scanQR": "Scan the QR code with your authenticator app",
+      "verificationCode": "Enter verification code from your app",
+      "verifyEnable": "Verify & Enable",
+      "enterCode": "Enter 6-digit code",
+      "cantScan": "Can't scan? Enter this code manually:",
+      "backupCodes": "Backup Codes",
+      "saveCodes": "Save these codes in a safe place. Each code can only be used once.",
+      "savedCodes": "I've Saved These Codes",
+      "emailOTP": "Email OTP Fallback",
+      "emailOTPDesc": "If you can't access your authenticator app, you can request a one-time code via email.",
+      "requestEmailCode": "Request Email Code",
+      "codeSent": "Code Sent!",
+      "checkEmail": "Check your email for the verification code. You can use it during login."
+    },
+    "theme": {
+      "title": "Appearance",
+      "subtitle": "Customize the look and feel of your app",
+      "selectTheme": "Select Theme",
+      "presets": {
+        "light": "Light",
+        "dark": "Dark",
+        "blue": "Blue Accent",
+        "cyberpunk": "Cyberpunk"
+      },
+      "customColor": "Custom Accent Color",
+      "pickColor": "Pick a custom accent color",
+      "preview": "Preview"
+    },
+    "language": {
+      "title": "Language",
+      "subtitle": "Choose your preferred language",
+      "selectLanguage": "Select Language",
+      "english": "English",
+      "hindi": "हिन्दी"
+    }
+  },
+  "passwords": {
+    "title": "Passwords",
+    "addNew": "Add New Password",
+    "searchPlaceholder": "Search passwords...",
+    "noPasswords": "No passwords found",
+    "noPasswordsDesc": "Start by adding your first password"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPassword": "Password must be at least 6 characters",
+    "passwordsNotMatch": "Passwords do not match",
+    "generic": "An error occurred. Please try again."
+  }
+}
+

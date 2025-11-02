@@ -1,0 +1,150 @@
+{
+    "common": {
+      "welcome": "Bienvenue",
+      "loading": "Chargement...",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "submit": "Soumettre",
+      "back": "Retour",
+      "next": "Suivant",
+      "confirm": "Confirmer",
+      "close": "Fermer",
+      "search": "Rechercher",
+      "filter": "Filtrer",
+      "actions": "Actions"
+    },
+    "auth": {
+      "login": {
+        "title": "Bon retour",
+        "subtitle": "Connectez-vous à votre coffre sécurisé",
+        "email": "Adresse e-mail",
+        "password": "Mot de passe",
+        "signIn": "Se connecter",
+        "signingIn": "Connexion...",
+        "forgotPassword": "Mot de passe oublié ?",
+        "noAccount": "Pas de compte ?",
+        "createAccount": "Créer un compte",
+        "twoFactorTitle": "Authentification à deux facteurs",
+        "twoFactorSubtitle": "Entrez le code à 6 chiffres de votre application d’authentification",
+        "twoFactorCode": "Code 2FA",
+        "verify2FA": "Vérifier 2FA",
+        "verifying": "Vérification...",
+        "sendEmailCode": "Envoyer le code par e-mail"
+      },
+      "register": {
+        "title": "Créer un compte",
+        "subtitle": "Inscrivez-vous pour commencer",
+        "username": "Nom d’utilisateur",
+        "email": "E-mail",
+        "password": "Mot de passe",
+        "masterPassword": "Mot de passe maître",
+        "confirmPassword": "Confirmer le mot de passe",
+        "signUp": "S’inscrire",
+        "signingUp": "Inscription...",
+        "hasAccount": "Vous avez déjà un compte ?",
+        "signIn": "Se connecter"
+      },
+      "forgotPassword": {
+        "title": "Réinitialiser le mot de passe",
+        "step1Subtitle": "Entrez votre e-mail pour recevoir un code de réinitialisation",
+        "step2Subtitle": "Entrez le code à 6 chiffres envoyé à votre e-mail",
+        "step3Subtitle": "Entrez votre nouveau mot de passe",
+        "sendCode": "Envoyer le code de réinitialisation",
+        "sending": "Envoi...",
+        "verifyCode": "Vérifier le code",
+        "verifying": "Vérification...",
+        "resetPassword": "Réinitialiser le mot de passe",
+        "resetting": "Réinitialisation...",
+        "resendCode": "Renvoyer le code",
+        "backToEmail": "Retour à l’e-mail",
+        "backToVerification": "Retour à la vérification",
+        "codeSent": "Code envoyé à",
+        "newPassword": "Nouveau mot de passe",
+        "confirmPassword": "Confirmer le mot de passe"
+      }
+    },
+    "dashboard": {
+      "title": "Tableau de bord",
+      "welcome": "Bon retour",
+      "stats": {
+        "totalPasswords": "Total des mots de passe",
+        "categories": "Catégories",
+        "favorites": "Favoris",
+        "recent": "Activité récente"
+      }
+    },
+    "settings": {
+      "title": "Paramètres",
+      "subtitle": "Gérer les paramètres de sécurité de votre compte",
+      "personalDetails": {
+        "title": "Détails personnels",
+        "subtitle": "Gérer les informations de votre compte",
+        "username": "Nom d’utilisateur",
+        "email": "Adresse e-mail",
+        "saveChanges": "Enregistrer les modifications",
+        "saving": "Enregistrement..."
+      },
+      "twoFactor": {
+        "title": "Authentification à deux facteurs",
+        "subtitle": "Ajoutez une couche de sécurité supplémentaire",
+        "enabled": "2FA activé",
+        "disabled": "2FA désactivé",
+        "backupCodesRemaining": "codes de secours restants",
+        "enabledOn": "Activé le",
+        "enable2FA": "Activer 2FA",
+        "disable2FA": "Désactiver 2FA",
+        "regenerateBackupCodes": "Régénérer les codes de secours",
+        "scanQR": "Scannez le QR code avec votre application d’authentification",
+        "verificationCode": "Entrez le code de vérification de votre application",
+        "verifyEnable": "Vérifier & Activer",
+        "enterCode": "Entrez le code à 6 chiffres",
+        "cantScan": "Impossible de scanner ? Entrez ce code manuellement :",
+        "backupCodes": "Codes de secours",
+        "saveCodes": "Enregistrez ces codes dans un endroit sûr. Chaque code ne peut être utilisé qu’une seule fois.",
+        "savedCodes": "J’ai enregistré ces codes",
+        "emailOTP": "OTP par e-mail",
+        "emailOTPDesc": "Si vous ne pouvez pas accéder à l’application, vous pouvez demander un code unique par e-mail.",
+        "requestEmailCode": "Demander le code par e-mail",
+        "codeSent": "Code envoyé !",
+        "checkEmail": "Vérifiez votre e-mail pour le code de vérification. Vous pouvez l’utiliser lors de la connexion."
+      },
+      "theme": {
+        "title": "Apparence",
+        "subtitle": "Personnalisez l’apparence de l’application",
+        "selectTheme": "Sélectionner un thème",
+        "presets": {
+          "light": "Clair",
+          "dark": "Sombre",
+          "blue": "Accent bleu",
+          "cyberpunk": "Cyberpunk"
+        },
+        "customColor": "Couleur d’accent personnalisée",
+        "pickColor": "Choisissez une couleur d’accent",
+        "preview": "Aperçu"
+      },
+      "language": {
+        "title": "Langue",
+        "subtitle": "Choisissez votre langue préférée",
+        "selectLanguage": "Sélectionner la langue",
+        "english": "Anglais",
+        "hindi": "Hindi"
+      }
+    },
+    "passwords": {
+      "title": "Mots de passe",
+      "addNew": "Ajouter un nouveau mot de passe",
+      "searchPlaceholder": "Rechercher des mots de passe...",
+      "noPasswords": "Aucun mot de passe trouvé",
+      "noPasswordsDesc": "Commencez par ajouter votre premier mot de passe"
+    },
+    "errors": {
+      "required": "Ce champ est requis",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide",
+      "invalidPassword": "Le mot de passe doit contenir au moins 6 caractères",
+      "passwordsNotMatch": "Les mots de passe ne correspondent pas",
+      "generic": "Une erreur est survenue. Veuillez réessayer."
+    }
+  }
+  
