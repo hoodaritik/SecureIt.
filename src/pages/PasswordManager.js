@@ -114,7 +114,7 @@ const PasswordManager = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Password Vault
+            Password SecureIt
           </motion.h1>
           <motion.p
             className="mt-2 text-base md:text-lg text-slate-600 dark:text-slate-400 leading-relaxed"
@@ -149,7 +149,7 @@ const PasswordManager = () => {
               <DialogHeader>
                 <DialogTitle className="text-xl sm:text-2xl font-semibold">Add New Password</DialogTitle>
                 <DialogDescription className="text-sm sm:text-base">
-                  Store a new password securely in your vault. All data is encrypted end-to-end.
+                  Store a new password securely in your SecureIt. All data is encrypted end-to-end.
                 </DialogDescription>
               </DialogHeader>
               <PasswordForm
@@ -210,7 +210,7 @@ const PasswordManager = () => {
         </div>
       </motion.div>
 
-      {/* Password Vault Content */}
+      {/* Password SecureIt Content */}
       <AnimatePresence mode="wait">
         {filteredPasswords.length === 0 ? (
           <motion.div
@@ -234,7 +234,7 @@ const PasswordManager = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              {searchTerm ? 'No passwords found' : 'Your vault is empty'}
+              {searchTerm ? 'No passwords found' : 'Your SecureIt is empty'}
             </motion.h3>
             <motion.p
               className="text-base sm:text-lg text-slate-600 dark:text-slate-400 mb-6 sm:mb-8 max-w-md mx-auto leading-relaxed px-4"
@@ -286,7 +286,7 @@ const PasswordManager = () => {
                     {filteredPasswords.length} password{filteredPasswords.length !== 1 ? 's' : ''} found
                   </p>
                   <p className="text-sm text-slate-600 dark:text-slate-400">
-                    {searchTerm ? `Results for "${searchTerm}"` : 'All passwords in your vault'}
+                    {searchTerm ? `Results for "${searchTerm}"` : 'All passwords in your SecureIt'}
                   </p>
                 </div>
               </div>
@@ -730,7 +730,7 @@ const PasswordForm = ({ password, onSubmit, onCancel, isLoading }) => {
                 Mark as Favorite
               </Label>
               <p className="text-xs text-slate-600 dark:text-slate-400">
-                Favorite passwords appear at the top of your vault
+                Favorite passwords appear at the top of your SecureIt
               </p>
             </div>
           </div>

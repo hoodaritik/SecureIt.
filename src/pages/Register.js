@@ -126,7 +126,7 @@ const Register = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.5 }}
             >
-              Set up your secure password vault
+              Set up your secure password secureIt
             </motion.p>
             <motion.div
               className="flex items-center justify-center space-x-2"

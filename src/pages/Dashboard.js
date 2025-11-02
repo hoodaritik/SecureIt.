@@ -254,7 +254,7 @@ const Dashboard = () => {
     },
     {
       title: 'View Passwords',
-      description: 'Browse your password vault',
+      description: 'Browse your password SecureIt',
       icon: FiSearch,
       href: '/passwords',
       color: 'from-indigo-500 to-blue-500',
@@ -639,7 +639,7 @@ const Dashboard = () => {
               Feature Highlights
             </CardTitle>
             <CardDescription className="text-blue-700 dark:text-blue-300">
-              Explore the powerful features available in your vault
+              Explore the powerful features available in your SecureIt
             </CardDescription>
           </CardHeader>
           <CardContent>

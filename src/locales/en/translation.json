@@ -18,7 +18,7 @@
   "auth": {
     "login": {
       "title": "Welcome back",
-      "subtitle": "Sign in to your secure vault",
+      "subtitle": "Sign in to your secure SecureIt",
       "email": "Email address",
       "password": "Password",
       "signIn": "Sign in",

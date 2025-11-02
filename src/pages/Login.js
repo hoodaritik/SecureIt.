@@ -20,7 +20,6 @@ const Login = () => {
   const { updateTheme } = useEnhancedTheme();
   const [loginEmail, setLoginEmail] = useState('');
   const [emailOTPRequested, setEmailOTPRequested] = useState(false);
-  // const [isLoading, setIsLoading] = useState(false); // Remove isLoading state as isLoggingIn is used instead
 
   const {
     register,
@@ -183,7 +182,7 @@ const Login = () => {
             >
               <h3 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">Sign In</h3>
               <p className="text-slate-600 dark:text-slate-400 mt-2">
-                Enter your credentials to access your password vault
+                Enter your credentials to access your password SecureIt
               </p>
             </motion.div>
 
